@@ -16,7 +16,7 @@ final class Module_ThreeJS extends GDO_Module
     public function onIncludeScript()
     {
         $min = Module_Javascript::instance()->jsMinAppend();
-        $this->addBowerJavascript("three/build/three{$min}.js");
+        $this->addBowerJS("three/build/three{$min}.js");
     }
 
 }
